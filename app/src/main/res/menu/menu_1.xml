@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/item_1"
+            android:title="Item 1"
+            app:showAsAction="collapseActionView"
+            android:icon="@drawable/ic_mood_bad_black_24dp"
+            android:visible="true"
+            android:enabled="true"
+            android:checkable="true"/>
+
+    <item
+            android:id="@+id/item_2"
+            app:showAsAction="collapseActionView"
+            android:title="Item 2"
+            android:icon="@drawable/ic_mood_bad_black_24dp"
+            android:visible="true"
+            android:checkable="true"
+            android:enabled="true"
+        />
+    <item
+            android:id="@+id/item_3"
+            app:showAsAction="collapseActionView"
+            android:title="Item 2"
+            android:icon="@drawable/ic_mood_bad_black_24dp"
+            android:visible="true"
+            android:checkable="true"
+            android:enabled="true"
+            />
+</menu>
